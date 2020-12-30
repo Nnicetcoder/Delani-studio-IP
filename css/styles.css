@@ -1,26 +1,49 @@
 #row1 {
-	background-image:  url(images/backdiv.jpg);
-	color: ;
+
+	background:url(../images/backimg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white ;
 	text-align: center;
+}
+#row1 h1 {
+	text-align: center;
+	
+}
+#logo{
+	height: 40px;
+	margin-bottom: 20px;
+	margin-left: 50%
+}
+#mouseclick {
+	height: 50px;
+	margin-top:200px;
+	margin-left: 50% 
 }
 #row2{
 	text-align: center;
+	align-items: center;
 	line-height: 1.8rem;
+	margin-bottom: 30px;
 }
 #row2 h2 {
 	text-align: center;
+	margin-left: 45%;
+	margin-top: 20px;
 }
 
 #row3{
-	background-image: url(images/s_image.jpg);
-}
-#row3  {
+	background-image: url(../images/s_image.jpg);
 	text-align:center;
 	line-height: 1.8rem;
 }
 #row3 h2 {
 	text-align: center;
+	margin-left: 45%;
 	
+}
+#row4{
+	margin-left: 70px;
 }
 .design{
 	display: none;
@@ -55,7 +78,7 @@ padding-left: 40px;
 text-align: center;
 }
 #row6 {
-	background: url(images/c_image.jpg);
+	background: url("../images/c_image.jpg");
 	margin: 30px 70px;
 	padding: 10px;
 }
@@ -77,11 +100,13 @@ text-align: center;
 }
 
 #row7 {
-	margin: 10px 120px;
+	margin: 10px 60px;
 }	
 #row7 img {
 	margin: 5px;
 	padding: 8px;
+	width: 70px;
+	height: 70px;
 	border-radius: 50%;
 	box-shadow: 0px 5px 4px rgba(0,0,0,.5)
 
