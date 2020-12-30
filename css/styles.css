@@ -11,7 +11,7 @@
 	
 }
 #logo{
-	height: 40px;
+	height: 60px;
 	margin-bottom: 20px;
 	margin-left: 50%
 }
@@ -34,16 +34,25 @@
 
 #row3{
 	background-image: url(../images/s_image.jpg);
+	background-size: cover;
 	text-align:center;
-	line-height: 1.8rem;
+
+	line-height: 1.7rem;
+	color: white;
+	height: 300px;
+	margin-top: 20px;
+	padding-top: 100px;
 }
 #row3 h2 {
 	text-align: center;
-	margin-left: 45%;
-	
+	margin-left: 45%;	
+}
+#row3 p {
+	margin-left: 120px;
 }
 #row4{
 	margin-left: 70px;
+	margin-top: 30px;
 }
 .design{
 	display: none;
@@ -79,6 +88,8 @@ text-align: center;
 }
 #row6 {
 	background: url("../images/c_image.jpg");
+	height: 300px;
+	width: 100%;
 	margin: 30px 70px;
 	padding: 10px;
 }
