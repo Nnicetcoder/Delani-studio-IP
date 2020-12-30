@@ -5,20 +5,24 @@
 	background-size: cover;
 	color:white ;
 	text-align: center;
+	padding: 50px;
+	padding-left: 30%;
 }
-#row1 h1 {
-	text-align: center;
+#row1 .row {
+	margin-left: 20px;
+	line-height: 1.6rem;
 	
 }
 #logo{
-	height: 60px;
+	height: 80px;
+	margin-top:100px; 
 	margin-bottom: 20px;
-	margin-left: 50%
+	margin-left: 25%
 }
 #mouseclick {
 	height: 50px;
 	margin-top:200px;
-	margin-left: 50% 
+	margin-left: 30% 
 }
 #row2{
 	text-align: center;
@@ -88,28 +92,56 @@ text-align: center;
 }
 #row6 {
 	background: url("../images/c_image.jpg");
-	height: 300px;
+	height: 400px;
 	width: 100%;
-	margin: 30px 70px;
-	padding: 10px;
+	margin: 30px 60px;
+	padding: 10px 30px;
 }
 #name {
 	width: 300px;
-	padding: 10px;
+	height: 40px;
+	padding: 5px;
 	margin: 10px;
+	border-radius: 4px;
+	border:none;
+	border-bottom:2px solid dodgerblue; 
 
+}
+#name[type=text]:focus {
+	border-color: dodgerblue;
+	box-shadow: 0 0 12px 0 dodgerblue;
+	
 }
 #email {
 	width: 300px;
-	padding:10px;
+	height: 40px;
+	padding:5px;
 	margin: 10px;
+	border:none;
+	border-radius: 4px;
+	border-bottom:2px solid dodgerblue;
+}
+#email[type=text]:focus {
+	border-color: dodgerblue;
+	box-shadow: 0 0 10px 0 dodgerblue;
 }
 #message {
-	width: 500px;
-	margin: 10px;
-	padding:10px;
-}
+	width: 600px;
+	margin: 2px;
+	padding:5px;
+	margin-top: -60px;
+	border:none;
 
+	border-radius: 4px;
+	border-bottom: 2px solid dodgerblue;
+}
+#message [type=text]:focus {
+	border-color: dodgerblue;
+	box-shadow: 0 0 8px 0 dodgerblue;
+}
+.btn btn-primary {
+	
+}
 #row7 {
 	margin: 10px 60px;
 }	
@@ -123,7 +155,7 @@ text-align: center;
 
 }
 #row7 img:hover {
-	transform: translate(0,-10px);
+	transform: translate(0,-15px);
 	transition: 0.7s;
 	
 }
