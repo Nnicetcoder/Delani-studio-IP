@@ -1,16 +1,26 @@
-#row1{
-	background: url(images/backdiv.jpg);
-	color: white;
+#row1 {
+	background-image:  url(images/backdiv.jpg);
+	color: ;
 	text-align: center;
 }
 #row2{
 	text-align: center;
+	line-height: 1.8rem;
 }
+#row2 h2 {
+	text-align: center;
+}
+
 #row3{
-	background:url(images/s_image.jpg);
+	background-image: url(images/s_image.jpg);
+}
+#row3  {
+	text-align:center;
+	line-height: 1.8rem;
 }
 #row3 h2 {
-	text-align:center;
+	text-align: center;
+	
 }
 #row5 {
 margin: 10px;
@@ -25,6 +35,10 @@ padding-left: 40px;
 	height: 150px;
 	padding: 8px;
 }
+#row5 img:hover {
+	transform: scale(1.15);
+	transition: 0.8s
+}
 #portfolio{
 	padding-bottom: 10px;
 }
@@ -37,14 +51,20 @@ text-align: center;
 	padding: 10px;
 }
 #name {
-	width: 300px
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+
 }
 #email {
 	width: 300px;
-
+	padding:10px;
+	margin: 10px;
 }
 #message {
-	width: 150px;
+	width: 500px;
+	margin: 10px;
+	padding:10px;
 }
 
 #row7 {
