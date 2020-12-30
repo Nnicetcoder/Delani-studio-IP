@@ -9,6 +9,9 @@
 #row3{
 	background:url(images/s_image.jpg);
 }
+#row3 h2 {
+	text-align:center;
+}
 #row5 {
 margin: 10px;
 padding-left: 40px;
