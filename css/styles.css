@@ -33,4 +33,20 @@ text-align: center;
 }
 #row6 {
 	background: url(images/c_image.jpg);
+	margin: 30px 70px;
+	padding: 10px;
+}
+#name {
+	width: 300px
+}
+#email {
+	width: 300px;
+
+}
+#message {
+	width: 150px;
+}
+
+#row7 {
+	margin: 10px 70px;
 }
