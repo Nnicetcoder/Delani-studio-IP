@@ -11,15 +11,22 @@
 }
 #row5 {
 margin: 10px;
+padding-left: 40px;
 
 }
-#row5 h1 {
+#row5 h2 {
 	text-align: center;
 }
 #row5 img {
-	width: 180px;
-	height: 120px;
-	padding: 5px;
+	width: 210px;
+	height: 150px;
+	padding: 8px;
+}
+#portfolio{
+	padding-bottom: 10px;
+}
+#portfolio h2 {
+text-align: center;
 }
 #row6 {
 	background: url(images/c_image.jpg);
