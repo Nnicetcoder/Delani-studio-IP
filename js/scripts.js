@@ -1,0 +1,28 @@
+$(document).ready(function(){
+	$(".design-icon").click(function(){
+		$(".design-icon").hide();
+		$(".design").show();
+	});
+	$(".design").click(function(){
+		$(".design").hide();
+		$(".design-icon").show();
+	});
+	$(".dev-icon").click(function(){
+		$(".dev-icon").hide();
+		$(".development").show();
+	});
+	$(".development").click(function(){
+		$(".development").hide();
+		$(".dev-icon").show();
+	});
+	$(".design-icon").click(function(){
+		$(".design-icon").hide();
+		$(".design").show();
+	});
+	$(".design").click(function(){
+		$(".design").hide();
+		$(".design-icon").show();
+	});
+	
+	});
+});
