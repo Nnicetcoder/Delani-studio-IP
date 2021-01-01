@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$(".dev-icon").show();
 	});
 	$(".product-icon").click(function(){
-		$(".prodcut-icon").hide();
+		$(".product-icon").hide();
 		$(".product_man").show();
 	});
 	$(".product_man").click(function(){
@@ -24,5 +24,4 @@ $(document).ready(function(){
 		$(".product-icon").show();
 	});
 	
-	});
 });
