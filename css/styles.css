@@ -92,16 +92,22 @@ text-align: center;
 }
 #row6 {
 	background: url("../images/c_image.jpg");
-	height: 400px;
+	height: 450px;
 	width: 100%;
 	margin: 30px 60px;
 	padding: 10px 30px;
+}
+#row6 h2 {
+	text-align: center;
+	color: white;
+	margin-left: 10px;
 }
 #name {
 	width: 300px;
 	height: 40px;
 	padding: 5px;
 	margin: 10px;
+	margin-top: 70px;
 	border-radius: 4px;
 	border:none;
 	border-bottom:2px solid dodgerblue; 
@@ -117,6 +123,7 @@ text-align: center;
 	height: 40px;
 	padding:5px;
 	margin: 10px;
+	margin-top: 70px;
 	border:none;
 	border-radius: 4px;
 	border-bottom:2px solid dodgerblue;
@@ -127,7 +134,7 @@ text-align: center;
 }
 #message {
 	width: 600px;
-	margin: 2px;
+	margin: 10px;
 	padding:5px;
 	margin-top: -60px;
 	border:none;
@@ -139,8 +146,12 @@ text-align: center;
 	border-color: dodgerblue;
 	box-shadow: 0 0 8px 0 dodgerblue;
 }
-.btn btn-primary {
+#submit_btn {
 	
+	margin-top: 150px;
+	margin-bottom: -80px;
+	width:100px;
+	height: 40px;
 }
 #row7 {
 	margin: 10px 60px;
