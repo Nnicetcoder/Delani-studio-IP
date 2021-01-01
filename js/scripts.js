@@ -15,13 +15,13 @@ $(document).ready(function(){
 		$(".development").hide();
 		$(".dev-icon").show();
 	});
-	$(".design-icon").click(function(){
-		$(".design-icon").hide();
-		$(".design").show();
+	$(".product-icon").click(function(){
+		$(".prodcut-icon").hide();
+		$(".product_man").show();
 	});
-	$(".design").click(function(){
-		$(".design").hide();
-		$(".design-icon").show();
+	$(".product_man").click(function(){
+		$(".product_man").hide();
+		$(".product-icon").show();
 	});
 	
 	});
