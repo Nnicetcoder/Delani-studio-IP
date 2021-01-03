@@ -24,4 +24,9 @@ $(document).ready(function(){
 		$(".product-icon").show();
 	});
 	
+	
+	
 });
+function sendMessage(){
+		alert("Thank you for contacting us!!");
+	};

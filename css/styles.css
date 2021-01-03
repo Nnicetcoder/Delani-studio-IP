@@ -1,8 +1,15 @@
+*{
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+
 #row1 {
 
 	background:url(../images/backimg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	width: 110%;
 	color:white ;
 	text-align: center;
 	padding: 50px;
@@ -12,6 +19,9 @@
 	margin-left: 20px;
 	line-height: 1.6rem;
 	
+}
+#row1 p {
+	text-align: center;
 }
 #logo{
 	height: 80px;
@@ -90,12 +100,19 @@ padding-left: 40px;
 #portfolio h2 {
 text-align: center;
 }
+#contact-us h2 {
+    margin-left: 40%;
+	align-items:  center;
+	text-decoration: 2px underline;
+
+}
 #row6 {
+
 	background: url("../images/c_image.jpg");
 	height: 450px;
 	width: 100%;
-	margin: 30px 60px;
-	padding: 10px 30px;
+	margin: 30px 40px;
+	padding: 10px 10px;
 }
 #row6 h2 {
 	text-align: center;

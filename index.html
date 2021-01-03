@@ -93,13 +93,16 @@
 			</div>
 				
 		</div>
+		<div class="row" id="contact-us">
+			<h2>Contact us</h2>
+		</div>
 		<div class="row" id="row6">
 			
-			<h2>Contact us</h2>
-			<input type="text" name="name" id="name" placeholder="Name">
-			<input type="email" name="email" id="email" placeholder="E-mail">
-			<textarea type="textarea" name="message" rows="7" cols="0" id="message" placeholder="your message here..."></textarea>
-			<button class="btn btn-primary" id="submit_btn">submit</button>
+			
+			<input type="text" name="name" id="name" placeholder="Name" required>
+			<input type="email" name="email" id="email" placeholder="E-mail" required>
+			<textarea type="textarea" name="message" rows="7" cols="0" id="message" placeholder="your message here..." required></textarea>
+			<button class="btn btn-primary" onclick="sendMessage()" id="submit_btn">submit</button>
 		</div>
 		<div class="row" id="row7">
 			<img src="images/twitter.jpeg">
