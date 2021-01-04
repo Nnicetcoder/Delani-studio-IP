@@ -1,5 +1,5 @@
 ##Project name.
-* Delani-studio-landing-page
+* Delani-studio-landing-page.
 
 ##Project description.
 *A web page that looks like the landing page of a fictional studio called Delani studio .
